@@ -1,0 +1,22 @@
+{
+    "name": "lroman242/template-mailer",
+    "description": "Package allows to store email templates on DB and easily send them via Mailer",
+    "type": "laravel-package",
+    "license": "MIT",
+    "version": "1.0.0-dev",
+    "authors": [
+        {
+            "name": "Roman Hrab",
+            "email": "lroman242@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.4.*",
+        "flynsarmy/db-blade-compiler": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lroman242\\TemplateMailer\\": "src/"
+        }
+    }
+}
